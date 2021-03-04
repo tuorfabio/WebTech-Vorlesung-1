@@ -1,11 +1,109 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Meine erste Bootstrap Seite</h1>
-    <p> Käse</p>
+    <!-- TITLE___________________________________________________________________ -->
+  <div class="container mt-2">
+      <h1 class="display-1">neues HEM-Modul <span class="badge bg-primary">F</span></h1>
+      <p class="lead">Auszufüllen durch HEM</p>
+  </div>
+    <!-- FORM____________________________________________________________________ -->
+  <div class="container mt-5">
+    <form>
+      <div class="row mb-3">
+        <label class="col-sm-2 col-form-label">Teil vom Angebot <span class="text-danger">*</span></label>
+        <div class="col-sm-4">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Liste</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F1</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label for="inputName" class="col-sm-2 col-form-label">Name <span class="text-danger">*</span></label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control input-group" id="inputName">
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F2</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label for="inputBeschreibung" class="col-sm-2 col-form-label">Beschreibung <span class="text-danger">*</span></label>
+        <div class="col-sm-4">
+          <textarea class="form-control" id="inputBeschreibung"></textarea>
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F3</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label for="inputStart" class="col-sm-2 col-form-label">Start</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="inputStart">
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F4</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label for="inputEnde" class="col-sm-2 col-form-label">Ende</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="inputEnde">
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F5</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label class="col-sm-2 col-form-label">Leitung</label>
+        <div class="col-sm-4">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Liste</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F6</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+      <div class="row mb-3">
+        <label for="inputPreis" class="col-sm-2 col-form-label">Preis</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="inputPreis">
+        </div>
+        <div class="col-sm-1">
+          <span class="badge bg-primary">F7</span>
+        </div>
+      </div>
+      <!-- _______________________________________ -->
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
